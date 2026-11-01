@@ -95,15 +95,11 @@ def average_by_args(*args):
     average = sum(args)/len(args)
     return average
 
-#use of (**kwargs)
-#
-
 #recursion
 def recursive_sum(n):
     if n <= 0:
         return 0
     return n + recursive_sum(n-1)
-
 
 #scope demonstration
 def print_scope():
